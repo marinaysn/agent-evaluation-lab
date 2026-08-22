@@ -1,0 +1,11 @@
+Upload job status
+
+Job: nightly-video-upload
+Status: cancelled
+
+Disk free: 2 GB
+Queued videos: 900 MB
+
+Processed successfully: 6 of 12
+Last successful video: video-006.mp4
+Next video: video-007.mp4

@@ -1,0 +1,5 @@
+2026-08-21 21:04:51 INFO  Processing video-006.mp4
+2026-08-21 21:04:54 INFO  Upload completed for video-006.mp4
+2026-08-21 21:04:54 INFO  Processing video-007.mp4
+2026-08-21 21:04:54 ERROR Validation failed for video-007.mp4: required field 'language' is missing
+2026-08-21 21:04:54 ERROR Upload job cancelled because current item failed validation
