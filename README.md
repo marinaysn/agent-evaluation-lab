@@ -24,9 +24,16 @@ Current models
 
 =========================================
 
+Evaluation Results
+
+| Test | Model | Capability | Result | Cost |
+|---|---|---|---|---:|
+| 001 | Muse Glimmer 30B | Debugging / false-lead resistance | 9.5/10 | TBD |
+| 002 | Muse Glimmer 30B | YouTube retrieval / audience analysis | Partial | $0.23 |
+
+=========================================
 
 Current tasks
-
 
 Task 001 — Debugging False Lead
 
@@ -40,12 +47,31 @@ The agent must:
 4. Use an authoritative metadata source.
 5. Apply only the smallest justified correction.
 
-Current results
+Current result:
+- Muse Glimmer 30B: 9.5/10
 
-| Task | Model | Score |
-|---|---|---:|
-| 001 | Meta Muse Glimmer 30B | 9.5/10 |
+Task 002 — YouTube Audience Analysis
 
+The agent must independently retrieve and analyze a public YouTube video and its audience comments.
+
+The test evaluates:
+
+1. Video identification.
+2. Video-summary accuracy.
+3. Comment retrieval.
+4. Separation of verified totals from actually retrieved comments.
+5. Comment classification.
+6. Theme extraction.
+7. Hallucination resistance.
+8. Provenance and limitation reporting.
+9. Constraint compliance.
+
+Current result:
+- Muse Glimmer 30B: Partial
+- Cost: approximately $0.23
+- Strong hallucination resistance, but zero comments were retrieved.
+
+=========================================
 
 Repository structure
 
